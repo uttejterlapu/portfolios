@@ -1,0 +1,100 @@
+/* Styles for the Home Page */
+.home-page {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  background-color: #000;
+  height: 80vh;
+
+}
+
+.banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 5px 20px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.cta-button:hover{
+  background-color: yellow;
+  color: black;
+  border: none;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline;
+  margin: 0 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Media queries for responsiveness can be added here */
+
+.type {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.type h1 {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.typed-text{
+  color: yellow;
+}
+
+.myimage {
+  height: 250px;
+  width: auto;
+  border-radius: 50%;
+  border:2px solid white;
+}
+
+.myname{
+  color: #fff;
+}
+
+.para{
+  color: #dbdbdb;
+  font-size: 14px;
+}
+
+.featured-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.explore-left{
+  margin: 0;
+  color: rgb(203, 203, 203);
+
+}

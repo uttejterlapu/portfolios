@@ -1,0 +1,30 @@
+/* AboutMe.css */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.about-me {
+  text-align: center;
+  padding: 20px;
+  background-color: #000000; /* Light gray background color */
+  height: 80vh;
+}
+
+.about-me h1 {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.about-me p {
+  font-size: 16px;
+  color: #d5d5d5;
+}
+
+.cert h3{
+    color: #ffffff;
+}
+
+.item p {
+    margin: 0;
+}
